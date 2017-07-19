@@ -1,0 +1,90 @@
+body{
+	background: rgba(178,215,320,1) url(backgorund.jpg) no-repeat;
+	background-size: 100%;
+}
+.heading__logo{
+	width: 540px;
+	height: 258px;
+	margin: 120px auto 0;
+	background: url(logo_white_fe6da1ec.png);
+}
+.center__search{
+	width: 631px;
+	margin: 0 auto;
+	border: 1px solid rgb(185, 185, 185);
+	border-top-color: rgb(160, 160, 160);
+	/*overflow: hidden;*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=0, Color=#000000)";/*IE 8*/
+	-moz-box-shadow: 0 4px 3px rgba(0,0,0,0.3);/*FF 3.5+*/
+	-webkit-box-shadow: 0 4px 3px rgba(0,0,0,0.3);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	box-shadow: 0 4px 3px rgba(0,0,0,0.3);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#000000); /*IE 5.5-7*/
+}
+.center__search:after{
+	content: ' ';
+	display: block;
+	clear: both;
+}
+.center__search-leftSearch{
+	width: 510px;
+	float: left;
+	cursor: text;
+	position: relative;
+}
+.center__search-leftSearch-btn{
+	width: 100%;
+	height: 20px;
+	border: 0;
+	padding: 10px;
+	font-size: 16px;
+}
+.center__search-leftSearch-btn:focus{
+	border: none;
+}
+.center__search-leftSearch-ul{
+	position: absolute;
+	width: 530px;
+	background: #333;
+	z-index: -1;
+	display: none;
+}
+.center__search-leftSearch-ul ul{
+	margin: 0;
+	padding: 0;
+}
+.center__search-leftSearch-ul ul li{
+	list-style-type: none;
+}
+.center__search-leftSearch-ul ul li a{
+	display: block;
+	font-size: 16px;
+	padding: 6px;
+	text-decoration: none;
+	background: #fff;
+	color: #000;
+}
+.center__search-leftSearch-ul ul li a:hover{
+	background: rgba(240,240,240,1);
+}
+.center__search-rightSearch{
+	width: 100px;
+	height: 40px;
+	float: right;
+}
+.center__search-rightSubmit-btn{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	cursor: pointer;
+	float: right;
+	font-size: 16px;
+}
+.center__search-rightSubmit-btn:hover{
+	border-left:1px solid rgb(185, 185, 185);
+	border-top:1px solid rgb(185, 185, 185);
+}
+.center__search-rightSubmit-btn:hover{
+	border-right:1px solid rgb(185, 185, 185);
+	border-bottom:1px solid rgb(185, 185, 185);
+}
